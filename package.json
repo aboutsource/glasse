@@ -2,6 +2,10 @@
   "name": "glasse",
   "version": "2.2.1",
   "description": "An installable gulp asset pipeline",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aboutsource/glasse"
+  },
   "main": "gulpfile.js",
   "author": [
     "Gustav Pursche <gustav.pursche@aboutsource.net>"
@@ -49,6 +53,6 @@
     "webpack-stream": "^3.2.0"
   },
   "engines": {
-    "node": ">=5.10.1"
+    "node": "~9.3.0"
   }
 }
