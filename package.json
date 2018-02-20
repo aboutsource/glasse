@@ -1,6 +1,6 @@
 {
   "name": "glasse",
-  "version": "2.3.5",
+  "version": "2.3.6",
   "description": "An installable gulp asset pipeline",
   "main": "gulpfile.js",
   "author": [
