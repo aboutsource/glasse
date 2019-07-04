@@ -46,9 +46,15 @@
     "run-sequence": "^1.2.2",
     "stylint": "^1.5.9",
     "webpack": "^1.14.0",
-    "webpack-stream": "^3.2.0"
+    "webpack-stream": "^3.2.0",
+    "snyk": "^1.189.0"
   },
   "engines": {
     "node": ">=5.10.1"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
